@@ -1,0 +1,17 @@
+# Virtual Environment
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Output files
+*.mp4
+*.avi
+*.jpg
+detection_log.txt
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Webcam Detection",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/traffic_light_detector.py",
+            "args": ["--source", "0"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Video File Detection",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/traffic_light_detector.py",
+            "args": ["--source", "test_video.mp4"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
